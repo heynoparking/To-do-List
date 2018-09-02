@@ -24,11 +24,6 @@ def index():
     return render_template('index.html', title='Accounting')
 
 
-@app.route("/name/")
-def name():
-    return "Hello Frank"
-
-
 @app.route("/record", methods=['POST'])
 def add_record():
     req_data = request.form
