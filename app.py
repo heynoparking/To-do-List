@@ -73,3 +73,5 @@ def delete_record(record_id):
     db.session.delete(record)
     db.session.commit()
     return 'Delete Succeeded', 200
+
+
