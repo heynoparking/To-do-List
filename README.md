@@ -15,6 +15,6 @@ flask run
 ```
 ## Main Feature
 
-1. Input value in input area to create new record.
+1. Input value in input area & click the submit button to create new record.
 2. Double click the item to edit record.
 3. Click the trash can icon to delete item.
