@@ -14,9 +14,14 @@
         crossorigin="anonymous">
     <style>
 
-        sss{
-            background-color: #888;
+        .sss{
+        border: 3px solid #41918D;
+        border-radius: 25px;
 
+        padding-bottom: 20px;
+        display: block;
+        width: 520px;
+        margin:0 auto 0;
         }
 
         .container {
@@ -118,21 +123,28 @@
 
         .xx{
             font-family: 'Roboto Condensed', sans-serif;
-            font-weight: 2000;            
-            font-size:50px;
+            font-weight: 4000;
+            
+            font-size:60px;
         }
 
         .jumbotron
         {
             background-color: #ffffff;
+            color:#49737C;
             padding-top:60px;
             padding-bottom:40px;
             height:150px;
         }
+        
+        .bb{
+            text-align: center;
+            font-size: 12px;
+            color:#49737C;
 
+        }
         
-        
-       
+
 
     </style>
 </head>
@@ -141,7 +153,7 @@
 
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
-            <div class="xx">MyTodossss</div>
+            <div class="xx">MyTodossss.</div>
         </div>
     </div>
     <div class="sss">
@@ -167,6 +179,8 @@
             </ul>
         </div>
     </section>
+    <div class="bb">
+        2018 cc </div>
 </div>
 
 
@@ -415,6 +429,9 @@
             const recordId = $(this).attr('data-record-id');
             sendEditItemRequest(recordId);
         });
+
+        
+
     </script>
 </body>
 
